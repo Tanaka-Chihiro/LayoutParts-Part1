@@ -1,1 +1,27 @@
 @charset "UTF-8";
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 18px;
+}
+th{
+  border: 1px solid #000000;
+  background: #319c4a;
+  padding: 10px;
+  line-height: 26px;
+}
+td{
+  border: 1px solid #000000;
+  background: #d5ffc7;
+  padding: 10px;
+  line-height: 22px;
+  text-align: center;
+}
+tr:nth-child(odd) td{
+  background: #bcbcbc;
+}
+tr:last-child{
+  border-top: 1px double #fff;
+}
